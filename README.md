@@ -68,7 +68,7 @@ Navegue a [http://localhost:3000](http://localhost:3000)
 
 #### 1- Muestre el usuario que está conectado al sistema.
 
-![todo](https://bitbucket.org/surtich/profitoro-enunciado-extra1/downloads/todo.gif)
+![todo](./img/todo.gif)
 
 #### 1.1- (1 punto desarrollo).
 
@@ -78,13 +78,13 @@ Cuando esté conectado, encima de "logout", aparecerá la foto del usuario con l
 
 La foto se mostrará redondeada y con un borde negro alrededor y separado de la foto. La separación del borde de la foto tendrá un fondo blanco.
 
-![image1.2](https://bitbucket.org/surtich/profitoro-enunciado-extra1/downloads/image1.2.png)
+![image1.2](./img/image1.2.png)
 
 #### 1.3- (2 puntos diseño).
 
 Al situarse encima de la foto, la foto se volteará y en la cara inversa "backface" se mostrará el nombre del usuario conectado. La foto del usuario se mostrará semitransparente. La separación del borde de la foto pasará de blanco a rojo.
 
-![image1.3](https://bitbucket.org/surtich/profitoro-enunciado-extra1/downloads/image1.3.png)
+![image1.3](./img/image1.3.png)
 
 #### 1.4- (1 punto diseño).
 
@@ -118,7 +118,7 @@ En "settings", al cambiar la imagen de perfil del usuario, se actualizará en la
 
 La acción "logout" y el menú settings (en adelante conocidos como "menús de usuario"), se mostrarán al lado de la imagen de perfil (a la derecha y centrados), con el estilo y disposición de la imagen.
 
-![image1.11](https://bitbucket.org/surtich/profitoro-enunciado-extra1/downloads/image1.11.png)
+![image1.11](./img/image1.11.png)
 
 #### 1.12- (1 punto desarrollo).
 
