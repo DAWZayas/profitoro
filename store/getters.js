@@ -4,6 +4,7 @@ export default {
   getConfig: state => state.config,
   getUser: state => state.user,
   getDisplayName: state => state.displayName,
+  getPhotoURL: state => state.photoURL,
   getWorkouts: state => state.workouts,
   getWorkoutsDone: state => state.statistics.workouts ? Object.keys(state.statistics.workouts).map(workoutKey => ({
     key: workoutKey,

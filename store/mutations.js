@@ -19,6 +19,9 @@ export default {
   setDisplayName (state, value) {
     state.displayName = value
   },
+  setPhotoURL (state, value) {
+    state.photoURL = value
+  },
   setAuthError (state, value) {
     state.authError = value
   },

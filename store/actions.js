@@ -178,10 +178,11 @@ export default {
    * @param state
    * @param {string} photoURL
    */
-  updatePhotoURL ({ state }, photoURL) {
+  updatePhotoURL ({ state, commit }, photoURL) {
     state.user.updateProfile({
       photoURL
     })
+    commit('setPhotoURL', photoURL)
   },
   /**
    * Updates user's email address
@@ -253,6 +254,11 @@ export default {
           dispatch('updateUserName', displayName)
         }
         commit('setDisplayName', displayName)
+        let photoURL = user.photoURL
+        if (!user.photoURL && photoURL) {
+          dispatch('updatePhotoURL', photoURL)
+        }
+        commit('setPhotoURL', photoURL || require('~/assets/images/tomato.png'))
         dispatch('bindFirebaseReferences', user)
       }
       if (!user) {
