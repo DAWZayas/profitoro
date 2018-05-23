@@ -10,6 +10,7 @@ const configRef = null
 const statisticsRef = null
 const workoutsRef = null
 const displayName = ''
+const photoURL = require('~/assets/images/tomato.png')
 
 const mode = {state: 'add', workout: null}
 
@@ -32,6 +33,7 @@ export default {
   workoutsRef,
   statistics,
   displayName,
+  photoURL,
   workouts: [],
   authError: '',
   mode,
